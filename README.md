@@ -28,9 +28,13 @@ qode-advisors-assignment/
 6. main.py # Main script to run the entire data pipeline
 
  7. src/
+    
     7.1. init.py
+    
     7.2. scraper.py # The core web scraping logic using Playwright
+    
     7.3. data_processor.py # Data cleaning, normalization, and transformation
+    
     7.4. analysis.py # Sentiment analysis and plot generation
 
 
