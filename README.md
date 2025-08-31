@@ -19,23 +19,20 @@ This system is built as a response to the Technical Assignment for a Software De
 ## Project Structure
 
 qode-advisors-assignment/
-│
-├── .gitignore
-├── README.md # You are here
-├── requirements.txt # Project dependencies
-│
-├── config.py # Central configuration for hashtags, file paths, etc.
-├── login_setup.py # One-time script to create the authentication file
-├── main.py # Main script to run the entire data pipeline
-│
-└─── src/
-├── init.py
-├── scraper.py # The core web scraping logic using Playwright
-├── data_processor.py # Data cleaning, normalization, and transformation
-└── analysis.py # Sentiment analysis and plot generation
 
+1. .gitignore
+2. README.md # You are here
+3. requirements.txt # Project dependencies
+4. config.py # Central configuration for hashtags, file paths, etc.
+5. login_setup.py # One-time script to create the authentication file
+6. main.py # Main script to run the entire data pipeline
 
----
+ 7. src/
+    a. init.py
+    b. scraper.py # The core web scraping logic using Playwright
+    c. data_processor.py # Data cleaning, normalization, and transformation
+    d. analysis.py # Sentiment analysis and plot generation
+
 
 ## How to Run This Project
 
